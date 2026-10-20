@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+dist/
+.env
+.env.*
+.git/
+artifacts/
+docs/
+supabase/
+scripts/
+credentials.json
+*.jks
+*.keystore
+*service-account*.json
+i-need-help-dev-58972-*.json

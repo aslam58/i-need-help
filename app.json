@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "I NEED HELP",
+    "slug": "i-need-help",
+    "scheme": "ineedhelp",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow I need help to find everyday requests near your approximate area."
+        }
+      ],
+      "expo-notifications",
+      "expo-dev-client"
+    ],
+    "extra": {
+      "router": {}
+    },
+    "android": {
+      "package": "com.aslammohamad.ineedhelp",
+      "googleServicesFile": "./google-services.json"
+    }
+  }
+}
